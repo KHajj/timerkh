@@ -1,5 +1,7 @@
 $(document).ready(function(){
 	$('#timer').click(function(){
-		$(this).hide();
+		$(this).animate({
+			backgroundColor: '#F07848'
+		});
 	});
 });
